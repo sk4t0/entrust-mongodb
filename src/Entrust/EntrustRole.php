@@ -10,7 +10,8 @@
 
 use Zizaco\Entrust\Contracts\EntrustRoleInterface;
 use Zizaco\Entrust\Traits\EntrustRoleTrait;
-use Illuminate\Database\Eloquent\Model;
+use Jenssegers\Mongodb\Eloquent\Model;
+//use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Config;
 
 class EntrustRole extends Model implements EntrustRoleInterface
